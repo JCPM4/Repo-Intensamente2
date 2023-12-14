@@ -1,0 +1,67 @@
+/* Formulario.css */
+.formulario-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .formulario-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .formulario-container > div {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .formulario-container > div:first-child {
+    flex: 1;
+    background-image: url('Intensamente-1-2.jpeg'); /* Cambia esto a la ruta correcta de tu imagen para el formulario */
+  }
+  
+  .formulario-container > div:last-child {
+    background-image: url('Intensamente-1-2.jpeg'); /* Cambia esto a la ruta correcta de tu imagen para el pie */
+    min-height: 100px;
+  }
+
+  
+  
+ 
+
+  

@@ -1,0 +1,6 @@
+/* Elenco.css */
+.elenco-container {
+    background: radial-gradient(circle, rgba(78,148,63,1) 15%, rgba(207,73,16,1) 25%, rgba(148,32,147,1) 46%, rgba(68,24,235,1) 100%);
+    padding: 20px; /* Añade espacio alrededor del contenido si es necesario */
+  }
+  

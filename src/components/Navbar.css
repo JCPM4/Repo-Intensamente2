@@ -1,0 +1,51 @@
+/* Navbar.css */
+.navbar {
+  background: rgb(231,76,60);
+background: linear-gradient(90deg, rgba(231,76,60,1) 15%, rgba(10,191,86,1) 35%, rgba(221,115,235,1) 60%, rgba(52,152,219,1) 96%);
+  padding: 50px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Distribuye los elementos uniformemente */
+}
+
+.nav-item {
+  margin: 0;
+}
+
+/* Estilos para cada enlace en la barra de navegación */
+.nav-item a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 15px 20px; /* Añade un poco de espacio alrededor del texto */
+  border-radius: 7px; /* Agrega bordes redondeados a los enlaces */
+
+  /* Colores específicos para cada enlace */
+  color: #ffffff; /* Color del texto en los enlaces */
+}
+
+.nav-item#inicio a {
+  background-color: #e74c3c; /* Color de fondo para el enlace de Inicio */
+}
+
+.nav-item#elenco a {
+  background-color: #0abf56; /* Color de fondo para el enlace de Elenco */
+}
+
+.nav-item#critica a {
+  background-color: #dd73eb; /* Color de fondo para el enlace de Crítica */
+}
+
+.nav-item#formulario a {
+  background-color: #3498db; /* Color de fondo para el enlace de Formulario */
+}
+
+/* Cambia el color al pasar el ratón sobre el enlace */
+.nav-item a:hover {
+  opacity: 0.8;
+}
